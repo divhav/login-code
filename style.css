@@ -1,0 +1,91 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Work Sans', Geneva, Arial, Helvetica, sans-serif, Tahoma;
+}
+.full-page-image {
+    background-image: url('https://i3.wp.com/wallpapers.com/images/hd/cyber-security-interface-skjqyncmzs3h1jcr.jpg'); /* Εδώ βάζεις τη διαδρομή προς την εικόνα σου */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-square-box {
+    background-color: rgba(0, 0, 0, 0.185); /* Μαύρο κουτί με 50% διαφάνεια */
+    width: 200px; /* Πλάτος κουτιού */
+    height: 90px; /* Ύψος κουτιού */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Χρώμα κειμένου */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.login-form {
+  background-color: rgba(0, 0, 0, .7);
+  width: 600px;
+  height: 270px;
+  border: 0px;
+  padding: 50px;
+  margin: 20px;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.zero {
+    align-items: center;
+    color: white;
+    font-size: 13pt;
+    font-family: Tahoma;
+    border: 0px;
+    text-decoration: none;
+    outline-width: 0;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.212);
+}
+.text-box {
+    color: white;
+    font-size: 11pt;
+    font-family: Tahoma;
+
+}
+.button {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    font-style: Tahoma;
+    font-size: 12pt;
+    text-decoration: none;
+    outline-width: 0;
+    border: 0;
+    height: 20px;
+    width: 80px;
+}
+.red {
+    color: red;
+    font-size: 11pt;
+    font-family: Tahoma;
+}
+#message-box {
+    border: 1px solid #e23434ad;
+    padding: 10px;
+    margin-top: 20px;
+    display: none;
+    color: white;
+}
